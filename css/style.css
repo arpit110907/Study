@@ -1,49 +1,56 @@
 body {
-  color: #52616b;
+  color: #164B60;
   font-size: 21px;
   font-weight: 400;
   line-height: 1.58;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  background-color: #f0f5f9;
+  background-color: #1B6B93;
   font-family: "Kanit", sans-serif;
   display: block;
 }
 
+.page-not-found {
+    text-align: center;
+  }  
+
+.main-logo{
+    width: 200px;
+}
+.outer {
+    text-align: center;
+    margin: 0 auto;
+}
+
 .content {
-  max-width: 700px;
-  margin: 56px auto;
+    max-width: 700px;
+    margin: 56px auto;
 }
 
 .block {
-  text-align: center;
-  padding: 15px;
+    text-align: center;
+    padding: 15px;
 }
 
-.profile {
-  margin-top: -110px;
+header {
+    margin-top: -0px;
 }
 
 a {
   cursor: pointer;
   text-decoration: none;
-  color: #52616b;
 }
 
 a:hover {
-  color: #c9d6df;
+  color: #A2FF86;
 }
 
-.a {
-  color: #52616b;
+.a-itom {
+  color: #4FC0D0;
 }
 
-.outer {
-  text-align: center;
-  margin: 0 auto;
-}
 
-.products {
+.itom {
   background-color: #1e2022;
   color: #fff;
   padding: 7px;
@@ -51,6 +58,7 @@ a:hover {
   border-radius: 25px;
 }
 
-.page-not-found {
-  text-align: center;
+.mail{
+    width: 75px;
+    margin-bottom: -50px;
 }
